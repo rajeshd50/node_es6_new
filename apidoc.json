@@ -1,0 +1,24 @@
+{
+    "name": "Node_APi_Starter",
+    "version": "0.0.1",
+    "description": "Node starter project",
+    "title": "Node Starter api docs",
+    "url": "http://localhost:3000/api",
+    "header": {
+        "title": "API Docs"
+    },
+    "User": [
+        "RegisterUser",
+        "LoginUser",
+        "CheckToken",
+        "LogoutUser"
+    ],
+    "GetTodoList": [
+        "GetTodoList",
+        "GetSingleTodo"
+    ],
+    "template": {
+        "withCompare": true,
+        "withGenerator": true
+    }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Node_api_starter",
+  "version": "0.0.1",
+  "description": "Starter project for node",
+  "scripts": {
+    "start": "NODE_ENV=production node ./bin/www",
+    "watch": "PORT=8000 nodemon ./bin/www",
+    "test": "mocha --reporter spec --ui bdd --timeout 0 test",
+    "generate-api-doc": " ./node_modules/.bin/apidoc -i ./app_api/ -o ./apidoc/"
+  },
+  "author": {
+    "name": "Rajesh"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-busboy": "^4.0.0",
+    "express-jwt": "^5.1.0",
+    "express-unless": "^0.3.0",
+    "jsonwebtoken": "^7.1.9",
+    "lodash": "^4.17.2",
+    "method-override": "^2.3.7",
+    "mongoose": "^4.7.1",
+    "morgan": "^1.7.0",
+    "puid": "^1.0.5"
+  },
+  "devDependencies": {
+    "apidoc": "^0.16.1",
+    "assert": "^1.4.1",
+    "debug": "^2.3.3",
+    "mocha": "^3.2.0",
+    "should": "^11.1.1",
+    "supertest": "^2.0.1"
+  }
+}
